@@ -35,7 +35,7 @@ const recognitions = ["NABCB", "FSSAI", "QCI", "IFE", "BEE", "NDIE", "MSME"];
 const AboutSection = () => {
   return (
     <section className="py-20 px-6 md:px-12 overflow-hidden" style={{ background: "#ffffff" }}>
-      <div className="max-w-full mx-2">
+      <div className="max-w-7xl mx-auto">
 
         {/* ── Top: Two-col layout ── */}
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">

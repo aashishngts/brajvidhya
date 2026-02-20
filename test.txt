@@ -1,6 +1,6 @@
 {/* ── AFFILIATES — clean list / table style ── */}
       <div className="py-20 px-6 md:px-16" style={{ background: "#f5f0e8" }}>
-        <div className="max-w-full mx-2">
+        <div className="max-w-7xl mx-auto">
 
           {/* Heading */}
           <div className="mb-14">

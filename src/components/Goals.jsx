@@ -155,7 +155,7 @@ const GoalCard = ({ goal }) => (
 // ── Goals Section ──────────────────────────────────────────────
 const Goals = () => (
   <section className="py-20 px-6 md:px-12" style={{ background: "#ffffff" }}>
-    <div className="max-w-full mx-2">
+    <div className="max-w-7xl mx-auto">
 
       {/* Title */}
       <div className="text-center mb-20">

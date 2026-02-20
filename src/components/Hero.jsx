@@ -93,7 +93,7 @@ const BgPattern = () => (
 // ── Badge Grid (static display below hero) ─────────────────────
 const BadgeGrid = () => (
   <div className="py-20 px-6 md:px-12" style={{ background: "#f5f0e8" }}>
-    <div className="max-w-full mx-2">
+    <div className="max-w-7xl mx-auto">
       {/* Heading */}
       <div className="text-center mb-16">
         <p className="text-[11px] font-bold tracking-[4px] uppercase text-[#b8962e] mb-3">
@@ -159,7 +159,7 @@ const HeroCarousel = () => {
           }}
         />
 
-        <div className="relative z-10 max-w-full mx-2 px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-16 min-h-[88vh]">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-16 min-h-[88vh]">
           {/* ── Left Content ── */}
           <div>
             {/* Tag pill */}

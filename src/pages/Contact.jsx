@@ -211,7 +211,7 @@ const Contact = () => {
       </div>
 
       {/* ── MAIN CONTENT ── */}
-      <div className="max-w-full mx-2 px-6 md:px-12 py-20">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py-20">
         <div className="grid lg:grid-cols-5 gap-14">
 
           {/* LEFT — Contact Info (2 cols) */}

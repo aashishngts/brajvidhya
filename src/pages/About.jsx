@@ -456,7 +456,7 @@ const About = () => {
           className="absolute left-0 top-0 bottom-0 w-1"
           style={{ background: C.gold }}
         />
-        <div className="max-w-full mx-2 px-6 md:px-12 pt-24 pb-20 relative z-10">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 pt-24 pb-20 relative z-10">
           <div className="max-w-3xl">
             <Label>Company Profile</Label>
             <h1
@@ -511,7 +511,7 @@ const About = () => {
       </section>
 
       {/* ── STATS ─────────────────────────────────────────── */}
-      <section className="max-w-full mx-2 px-6 md:px-12 -mt-2 pb-10">
+      <section className="max-w-7xl mx-auto px-6 md:px-12 -mt-2 pb-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <Stat value="15+" label="Years Experience" />
           <Stat value="₹6Cr" label="Annual Turnover" />
@@ -522,7 +522,7 @@ const About = () => {
 
       {/* ── ABOUT ─────────────────────────────────────────── */}
       <section className="py-20 px-6 md:px-12">
-        <div className="max-w-full mx-2 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <Label>Who We Are</Label>
             <h2
@@ -672,7 +672,7 @@ const About = () => {
 
       {/* ── CORE PRINCIPLES ────────────────────────────────── */}
       <section className="py-20 px-6 md:px-12">
-        <div className="max-w-full mx-2">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <Label>What We Stand For</Label>
             <h2
@@ -726,7 +726,7 @@ const About = () => {
         className="py-20 px-6 md:px-12"
         style={{ background: C.creamDk }}
       >
-        <div className="max-w-full mx-2">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Label>How We Work</Label>
             <h2
@@ -759,7 +759,7 @@ const About = () => {
 
       {/* ── ACCREDITATIONS ───────────────────────────────── */}
       <section className="py-20 px-6 md:px-12">
-        <div className="max-w-full mx-2">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <Label>Recognition & Credentials</Label>
             <h2
@@ -818,7 +818,7 @@ const About = () => {
         className="py-20 px-6 md:px-12"
         style={{ background: C.creamDk }}
       >
-        <div className="max-w-full mx-2">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <Label>Our Ecosystem</Label>
             <h2

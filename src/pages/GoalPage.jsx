@@ -394,7 +394,7 @@ const GoalPage = () => (
         style={{ background: C.gold }}
       />
 
-      <div className="max-w-full mx-2 px-6 md:px-12 pt-24 pb-24 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 pt-24 pb-24 relative z-10">
         <div className="max-w-3xl">
           <p
             className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
@@ -455,7 +455,7 @@ const GoalPage = () => (
 
     {/* ── VISION BANNER ─────────────────────────────── */}
     <section className="py-16 px-6 md:px-12" style={{ background: C.white }}>
-      <div className="max-w-full mx-2">
+      <div className="max-w-7xl mx-auto">
         <div
           className="rounded-3xl p-10 md:p-14 relative overflow-hidden"
           style={{
@@ -620,7 +620,7 @@ const GoalPage = () => (
 
     {/* ── ROADMAP ───────────────────────────────────── */}
     <section className="py-20 px-6 md:px-12" style={{ background: C.greenDk }}>
-      <div className="max-w-full mx-2">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p
             className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
@@ -743,7 +743,7 @@ const GoalPage = () => (
 
     {/* ── COMMITMENT PILLARS ────────────────────────── */}
     <section className="py-20 px-6 md:px-12" style={{ background: C.cream }}>
-      <div className="max-w-full mx-2">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p
             className="text-[11px] font-bold tracking-[4px] uppercase mb-3"

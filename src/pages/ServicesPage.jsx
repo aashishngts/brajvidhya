@@ -534,7 +534,7 @@ const ServicesPage = () => (
         style={{ background: C.gold }}
       />
 
-      <div className="max-w-full mx-2 px-6 md:px-12 pt-24 pb-24 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 pt-24 pb-24 relative z-10">
         <div className="max-w-3xl">
           <p
             className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
@@ -595,7 +595,7 @@ const ServicesPage = () => (
 
     {/* ── SERVICES GRID ─────────────────────────────── */}
     <section className="py-20 px-6 md:px-12" style={{ background: C.cream }}>
-      <div className="max-w-full mx-2">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p
             className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
@@ -634,7 +634,7 @@ const ServicesPage = () => (
 
     {/* ── WHY CHOOSE US ─────────────────────────────── */}
     <section className="py-20 px-6 md:px-12" style={{ background: C.greenDk }}>
-      <div className="max-w-full mx-2">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p
             className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
@@ -689,7 +689,7 @@ const ServicesPage = () => (
 
     {/* ── PROCESS STEPS ─────────────────────────────── */}
     <section className="py-20 px-6 md:px-12" style={{ background: C.creamDk }}>
-      <div className="max-w-full mx-2">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <p
             className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
@@ -788,7 +788,7 @@ const ServicesPage = () => (
       className="py-12 px-6 md:px-12 border-b"
       style={{ background: C.white, borderColor: "#e8e0d0" }}
     >
-      <div className="max-w-full mx-2 flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
         <div className="flex-1">
           <h2
             className="text-2xl font-black mb-2"
