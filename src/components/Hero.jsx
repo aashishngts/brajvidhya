@@ -159,7 +159,7 @@ const HeroCarousel = () => {
           }}
         />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-16 min-h-[88vh]">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-12 min-h-[88vh]">
           {/* ── Left Content ── */}
           <div>
             {/* Tag pill */}

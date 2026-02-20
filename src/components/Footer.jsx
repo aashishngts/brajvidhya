@@ -5,7 +5,7 @@ import qciLogo from "../assets/accreditations/qci.png";
 import ifeLogo from "../assets/accreditations/ife.png";
 import beeLogo from "../assets/accreditations/bee.png";
 import msmeLogo from "../assets/accreditations/msme.png";
-
+import logo from "../assets/logo.jpeg";
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
@@ -44,19 +44,29 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
           {/* Col 1 — Brand */}
           <div className="lg:col-span-1">
-            <div className="mb-5">
-              <h3
-                className="text-2xl font-black text-[#f5f0e8] leading-tight"
-                style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
-              >
-                Brajvidhya
-              </h3>
-              <h3
-                className="text-xl font-black text-[#b8962e]"
-                style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
-              >
-                Services Pvt. Ltd.
-              </h3>
+            <div className="mb-5 flex items-center gap-4">
+              {/* Logo */}
+              <img
+                src={logo}
+                alt="Brajvidhya Logo"
+                className="h-14 w-14 rounded-full object-cover border-2 border-[#b8962e]"
+              />
+
+              {/* Company Name */}
+              <div>
+                <h3
+                  className="text-2xl font-black text-[#f5f0e8] leading-tight"
+                  style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+                >
+                  Brajvidhya
+                </h3>
+                <h3
+                  className="text-xl font-black text-[#b8962e]"
+                  style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+                >
+                  Services Pvt. Ltd.
+                </h3>
+              </div>
             </div>
             <div
               className="w-10 h-[2px] mb-5"
@@ -164,15 +174,15 @@ const Footer = () => {
 
           {/* Col 2 — Quick Links */}
           <div>
-            <h4 className="text-[11px] font-bold tracking-[3px] uppercase text-[#b8962e] mb-5 text-center">
+            <h4 className="space-y-2.5 flex flex-col items-start md:items-center text-[#b8962e] mb-2">
               Quick Links
             </h4>
-            <ul className="space-y-2.5 flex flex-col items-center">
+            <ul className="space-y-2.5 flex flex-col items-start md:items-center">
               {navLinks.map((link) => (
                 <li key={link.to}>
                   <Link
                     to={link.to}
-                    className="text-[#6a8a7a] text-sm flex items-center justify-center gap-2 group text-center"
+                    className="text-[#6a8a7a] text-sm flex items-center justify-start md:justify-center gap-2 text-left md:text-center"
                     style={{ transition: "color 0.4s ease" }}
                     onMouseEnter={(e) =>
                       (e.currentTarget.style.color = "#b8962e")
@@ -191,10 +201,10 @@ const Footer = () => {
 
           {/* Col 3 — Services */}
           <div>
-            <h4 className="text-[11px] font-bold tracking-[3px] uppercase text-[#b8962e] mb-5 text-center">
+            <h4 className="space-y-2.5 flex flex-col items-start md:items-center text-[#b8962e] mb-2">
               Our Services
             </h4>
-            <ul className="space-y-2.5 flex flex-col items-center">
+            <ul className="space-y-2.5 flex flex-col items-start md:items-center">
               {serviceLinks.map((link) => (
                 <li key={link.to}>
                   <Link
@@ -233,11 +243,7 @@ const Footer = () => {
                   border: "1px solid rgba(184,150,46,0.25)",
                 }}
               >
-                <img
-                  src={r.img}
-                  alt={r.name}
-                  className="h-5 object-cover"
-                />
+                <img src={r.img} alt={r.name} className="h-5 object-cover" />
               </div>
             ))}
           </div>

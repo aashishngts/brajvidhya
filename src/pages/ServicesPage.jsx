@@ -529,10 +529,10 @@ const ServicesPage = () => (
         className="absolute bottom-0 left-0 w-64 h-64 rounded-full opacity-5"
         style={{ background: C.gold, transform: "translate(-30%, 30%)" }}
       />
-      <div
+      {/* <div
         className="absolute left-0 top-0 bottom-0 w-1"
         style={{ background: C.gold }}
-      />
+      /> */}
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 pt-24 pb-24 relative z-10">
         <div className="max-w-3xl">
