@@ -441,7 +441,7 @@ const About = () => {
         className="relative overflow-hidden"
         style={{
           background: `linear-gradient(135deg, ${C.greenDk} 0%, ${C.green} 60%, #1e4d35 100%)`,
-          minHeight: "520px",
+          minHeight: "420px",
         }}
       >
         <div
@@ -468,7 +468,7 @@ const About = () => {
               <span className="block sm:inline">Services Pvt. Ltd.</span>
             </h1>
             <p
-              className="text-lg leading-relaxed mb-8"
+              className="text-sm sm:text-base md:text-lg leading-relaxed mb-6 md:mb-8"
               style={{ color: "rgba(255,255,255,0.72)" }}
             >
               NABCB Accredited Inspection Body · ISO/IEC 17020:2012 · IB 145 ·
