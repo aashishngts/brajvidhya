@@ -141,7 +141,7 @@ const HeroCarousel = () => {
     <>
       {/* ── HERO BANNER ── */}
       <section
-        className="relative w-full overflow-hidden min-h-[70vh] md:min-h-[88vh]"
+        className="relative w-full overflow-hidden min-h-[auto] md:min-h-[88vh]"
         style={{
           background:
             "linear-gradient(135deg, #0d2b1c 0%, #1a3d2b 55%, #1e4535 100%)",
@@ -158,11 +158,11 @@ const HeroCarousel = () => {
           }}
         />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-12 md:py-10">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-14 sm:py-16 md:py-10">
           {/* ── Left Content ── */}
           <div>
             {/* Tag pill */}
-            <div className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-[#b8962e]/40 bg-[#b8962e]/10">
+            <div className="inline-flex items-start lg:items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-[#b8962e]/40 bg-[#b8962e]/10">
               <span className="w-2 h-2 rounded-full bg-[#b8962e] animate-pulse" />
               <span className="text-[#b8962e] text-[11px] font-bold tracking-[2px] uppercase">
                 NABCB Accredited · ISO/IEC 17020:2012
