@@ -5,7 +5,7 @@ import qciLogo from "../assets/accreditations/qci.png";
 import ifeLogo from "../assets/accreditations/ife.png";
 import beeLogo from "../assets/accreditations/bee.png";
 import msmeLogo from "../assets/accreditations/msme.png";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/logo.png";
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
@@ -49,7 +49,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="Brajvidhya Logo"
-                className="h-14 w-14 rounded-full object-cover border-2 border-[#b8962e]"
+                className="h-14 w-14 rounded-full object-cover border-2 border-[#b8962e] bg-white"
               />
 
               {/* Company Name */}
@@ -143,7 +143,7 @@ const Footer = () => {
                 </span>
                 <span>info@brajvidhya.com</span>
               </div>
-              <div className="flex items-center gap-2.5 text-[#6a8a7a]">
+              {/* <div className="flex items-center gap-2.5 text-[#6a8a7a]">
                 <span className="text-[#b8962e]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ const Footer = () => {
                 >
                   www.brajvidhya.com
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -243,7 +243,7 @@ const Footer = () => {
                   border: "1px solid rgba(184,150,46,0.25)",
                 }}
               >
-                <img src={r.img} alt={r.name} className="h-5 object-cover" />
+                <img src={r.img} alt={r.name} className="h-5 object-cover   " />
               </div>
             ))}
           </div>

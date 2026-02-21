@@ -543,13 +543,13 @@ const ServicesPage = () => (
             What We Offer
           </p>
           <h1
-            className="text-5xl md:text-6xl font-black text-white mb-6 leading-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 md:mb-6 leading-tight"
             style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
           >
             Our <span style={{ color: C.gold }}>Services</span>
           </h1>
           <p
-            className="text-lg leading-relaxed mb-8"
+            className="text-sm sm:text-base md:text-lg leading-relaxed mb-6 md:mb-8"
             style={{ color: "rgba(255,255,255,0.72)" }}
           >
             Accredited inspection, auditing and certification services across
@@ -598,7 +598,7 @@ const ServicesPage = () => (
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p
-            className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
+            className="text-[10px] sm:text-[11px] font-bold tracking-[3px] sm:tracking-[4px] uppercase mb-3"
             style={{ color: C.gold }}
           >
             Our Expertise

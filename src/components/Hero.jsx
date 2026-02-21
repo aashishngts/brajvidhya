@@ -172,7 +172,7 @@ const HeroCarousel = () => {
 
             {/* Heading */}
             <h1
-              className="text-5xl md:text-6xl font-black leading-tight mb-1"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-1"
               style={{
                 fontFamily: "'Playfair Display', Georgia, serif",
                 color: "#f5f0e8",
@@ -180,8 +180,9 @@ const HeroCarousel = () => {
             >
               Brajvidhya
             </h1>
+
             <h1
-              className="text-5xl md:text-6xl font-black leading-tight mb-1"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-1"
               style={{
                 fontFamily: "'Playfair Display', Georgia, serif",
                 color: "#f5f0e8",
@@ -189,8 +190,9 @@ const HeroCarousel = () => {
             >
               Services
             </h1>
+
             <h2
-              className="text-3xl md:text-4xl font-black mb-6"
+              className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black mb-6"
               style={{
                 fontFamily: "'Playfair Display', Georgia, serif",
                 color: "#b8962e",
@@ -206,10 +208,6 @@ const HeroCarousel = () => {
               IFE, QCI, BEE & NDIE. Partnering with us means choosing a reliable
               body dedicated to ensuring your operations meet the highest
               standards of quality and safety.
-            </p>
-
-            <p className="text-[#b8962e]/80 text-sm font-semibold mb-8">
-              www.brajvidhya.com
             </p>
 
             {/* CTA Buttons */}

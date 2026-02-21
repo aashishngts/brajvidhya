@@ -403,14 +403,14 @@ const GoalPage = () => (
             Our Direction
           </p>
           <h1
-            className="text-5xl md:text-6xl font-black text-white mb-6 leading-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 md:mb-6 leading-tight"
             style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
           >
-            Goals &<br />
+            Goals &<br className="hidden sm:block" />
             <span style={{ color: C.gold }}>Future Vision</span>
           </h1>
           <p
-            className="text-lg leading-relaxed mb-8"
+            className="text-sm sm:text-base md:text-lg leading-relaxed mb-6 md:mb-8"
             style={{ color: "rgba(255,255,255,0.72)" }}
           >
             Brajvidhya Services is committed to becoming India's most trusted
@@ -476,7 +476,7 @@ const GoalPage = () => (
           <div className="relative z-10 grid md:grid-cols-2 gap-10 items-center">
             <div>
               <p
-                className="text-[11px] font-bold tracking-[4px] uppercase mb-3"
+                className="text-[10px] sm:text-[11px] font-bold tracking-[3px] sm:tracking-[4px] uppercase mb-3"
                 style={{ color: C.gold }}
               >
                 Long-Term Vision
@@ -572,8 +572,9 @@ const GoalPage = () => (
         <div className="flex flex-col gap-0">
           {goals.map((g, i) => (
             <div
-              key={g.num}
-              className={`flex items-center gap-10 py-12 border-b ${i % 2 !== 0 ? "flex-row-reverse" : ""}`}
+              className={`flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10 py-10 md:py-12 border-b ${
+                i % 2 !== 0 ? "md:flex-row-reverse" : ""
+              }`}
               style={{ borderColor: `${C.gold}25` }}
             >
               {/* Big Ghost Number */}

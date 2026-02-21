@@ -460,12 +460,12 @@ const About = () => {
           <div className="max-w-3xl">
             <Label>Company Profile</Label>
             <h1
-              className="text-5xl md:text-6xl font-black text-white mb-6 leading-tight"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-5 md:mb-6 leading-tight"
               style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
             >
               About <span style={{ color: C.gold }}>Brajvidhya</span>
-              <br />
-              Services Pvt. Ltd.
+              <br className="hidden sm:block" />
+              <span className="block sm:inline">Services Pvt. Ltd.</span>
             </h1>
             <p
               className="text-lg leading-relaxed mb-8"
@@ -876,7 +876,7 @@ const About = () => {
             ].map((org) => (
               <div
                 key={org.num}
-              className="flex flex-col rounded-2xl overflow-hidden h-full"
+                className="flex flex-col rounded-2xl overflow-hidden h-full"
                 style={{
                   boxShadow: "0 8px 32px rgba(26,61,43,0.12)",
                   border: "1px solid #e0d8c8",
@@ -918,7 +918,10 @@ const About = () => {
                 </div>
 
                 {/* services list */}
-                <div className="px-6 py-6 flex-1" style={{ background: C.white }}>
+                <div
+                  className="px-6 py-6 flex-1"
+                  style={{ background: C.white }}
+                >
                   <p
                     className="text-[10px] uppercase tracking-[2px] font-bold mb-3"
                     style={{ color: C.gold }}
@@ -973,7 +976,6 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
             {[
               {
-                
                 name: "Pankaj Suryavanshi",
                 role: "Executive Director",
                 email: "suryavanshipankaj76@gmail.com",
@@ -986,10 +988,7 @@ const About = () => {
                 img: owner2,
               },
             ].map((p) => (
-              <div
-                key={p.name}
-                className="text-center group "
-              >
+              <div key={p.name} className="text-center group ">
                 {/* Profile Image */}
                 <div className="relative mx-auto mb-6 w-44 h-44">
                   <div

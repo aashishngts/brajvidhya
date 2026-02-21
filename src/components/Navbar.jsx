@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/logo.png";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -40,12 +40,12 @@ const Navbar = () => {
       }}
     >
       {/* ── MOBILE BAR ── */}
-      <div className="md:hidden flex items-center justify-between px-4 h-[64px]">
+      <div className="md:hidden flex items-center justify-between px-4 h-[64px] ">
         <Link to="/">
           <img
             src={logo}
             alt="Logo"
-            className="h-[48px] w-[48px] rounded-full object-cover border-2 border-yellow-600"
+            className="h-[48px] w-[48px] rounded-full object-cover border-2 border-yellow-600 bg-white"
           />
         </Link>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Logo"
-            className="h-[70px] w-[70px] rounded-full object-cover border-2 border-yellow-600"
+            className="h-[70px] w-[70px] rounded-full object-cover border-2 border-yellow-600 bg-white"
           />
         </Link>
 
