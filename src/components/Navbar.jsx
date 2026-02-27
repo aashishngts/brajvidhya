@@ -15,7 +15,7 @@ const NavLink = ({ to, label, pathname }) => {
   return (
     <Link
       to={to}
-      className={`relative px-3 py-2 text-[11px] font-bold uppercase tracking-widest transition-colors duration-200 whitespace-nowrap group
+      className={`relative px-3 py-2 text-[11px] font-bold uppercase tracking-widest transition-colors duration-200 font-['Outfit']  whitespace-nowrap group
       ${isActive ? "text-[#b8962e]" : "text-[#e8e0d0] hover:text-[#d4af50]"}`}
     >
       {label}
@@ -74,7 +74,7 @@ const Navbar = () => {
 
       {/* ── DESKTOP BAR ── */}
       <div className="hidden md:grid max-w-[1280px] mx-auto grid-cols-[1fr_auto_1fr] items-center px-6 h-[76px]">
-        <nav className="flex items-center justify-end gap-1">
+        <nav className="flex items-center justify-end gap-10 pr-10">
           {navLinks.slice(0, 2).map((link) => (
             <NavLink
               key={link.to}
@@ -93,7 +93,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <nav className="flex items-center justify-start gap-1">
+        <nav className="flex items-center justify-start gap-10 pl-10">
           {navLinks.slice(2).map((link) => (
             <NavLink
               key={link.to}
