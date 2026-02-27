@@ -140,7 +140,7 @@ const HeroCarousel = () => {
     <>
       {/* ── HERO BANNER ── */}
       <section
-        className="relative w-full overflow-hidden min-h-[auto] md:min-h-[88vh]"
+        className="relative w-full overflow-hidden min-h-[auto]"
         style={{
           background:
             "linear-gradient(135deg, #0d2b1c 0%, #1a3d2b 55%, #1e4535 100%)",
@@ -157,7 +157,7 @@ const HeroCarousel = () => {
           }}
         />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-14 sm:py-16 md:py-10">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid lg:grid-cols-2 gap-8 items-center py-12 md:py-14">
           {/* ── Left Content ── */}
           <div>
             {/* Tag pill */}

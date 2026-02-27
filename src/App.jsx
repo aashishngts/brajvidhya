@@ -8,12 +8,14 @@ import Contact from "./pages/Contact";
 import GoalPage from "./pages/GoalPage";
 import BackToTop from "./components/BackToTop";
 import ScrollToTop from "./components/ScrollToTop";
+import NavbarLeftLogo from "./components/NavbarLeftLogo";
 
 function App() {
   return (
     <BrowserRouter>
     <ScrollToTop />
       <Navbar />
+      {/* <NavbarLeftLogo/> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
