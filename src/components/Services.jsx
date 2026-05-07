@@ -57,7 +57,7 @@ const ServiceCard = ({ service, index }) => {
         </h3>
 
         <p
-          className="text-xs leading-relaxed mb-3"
+          className="text-xs line-clamp-5 leading-relaxed mb-3"
           style={{
             color: hovered ? "#7a9a8a" : "#6b7280",
             transition: "color 0.4s ease",
@@ -85,7 +85,7 @@ const ServiceCard = ({ service, index }) => {
         </div>
 
         <Link
-          to="/about"
+           to={`/services/${service.num}`}
           className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase tracking-widest"
           style={{
             color: hovered ? "#b8962e" : "#1a3d2b",
@@ -137,7 +137,7 @@ const Services = () => {
         </div>
 
         {/* Cards grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <ServiceCard key={index} service={service} index={index} />
           ))}

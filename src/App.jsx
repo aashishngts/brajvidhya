@@ -9,6 +9,7 @@ import GoalPage from "./pages/GoalPage";
 import BackToTop from "./components/BackToTop";
 import ScrollToTop from "./components/ScrollToTop";
 import NavbarLeftLogo from "./components/NavbarLeftLogo";
+import ServiceDetail from "./pages/serviceDetail";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<ServicesPage/>} />
+        <Route path="/services/:id" element={<ServiceDetail />} />
         <Route path="/goal" element={<GoalPage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

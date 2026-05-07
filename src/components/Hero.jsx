@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logos/finalLogo.jpeg";
 import nabcbLogo from "../assets/accreditations/nabcb.png";
 import fssaiLogo from "../assets/accreditations/fssai.png";
 import qciLogo from "../assets/accreditations/qci.png";

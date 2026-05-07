@@ -1,6 +1,7 @@
 export const services = [
   {
-    title: "FSSAI Third Party Audit",
+    num: "01",
+    title: "FSSAI jnkgnnkfj Third Party Audit",
     shortDesc: "Independent food safety compliance audits recognized by FSSAI.",
     description:
       "A third-party food audit is an independent evaluation by an external agency to ensure a food business complies with safety and quality standards like HACCP, ISO 22000, or BRCGS. We verify compliance with national and international food safety standards.",
@@ -11,6 +12,7 @@ export const services = [
     to: "/services/fssai-audit",
   },
   {
+    num: "02",
     title: "Hygiene Rating Audit (HRA)",
     shortDesc: "QCI-recognized hygiene rating for food establishments.",
     description:
@@ -22,6 +24,7 @@ export const services = [
     to: "/services/hra",
   },
   {
+    num: "03",
     title: "ZED Assessment",
     shortDesc: "Zero Defect Zero Effect MSME certification body.",
     description:
@@ -33,6 +36,7 @@ export const services = [
     to: "/services/zed",
   },
   {
+    num: "04",
     title: "Energy Audit / Inspection",
     shortDesc: "Systematic energy flow analysis to identify savings.",
     description:
@@ -44,6 +48,7 @@ export const services = [
     to: "/services/energy-audit",
   },
   {
+    num: "05",
     title: "Fire Safety Inspection",
     shortDesc: "IFE-approved fire safety audits per NBC standards.",
     description:
@@ -55,6 +60,7 @@ export const services = [
     to: "/services/fire-safety",
   },
   {
+    num: "06",
     title: "Environmental Audit",
     shortDesc: "Objective evaluation of environmental performance.",
     description:
@@ -66,6 +72,19 @@ export const services = [
     to: "/services/environmental-audit",
   },
   {
+    num: "07",
+    title: "Eat Right Initiative",
+    shortDesc: "FSSAI Eat Right Campus, School & Place of Worship audits.",
+    description:
+      "Audits under FSSAI's Eat Right India movement — Eat Right Campus, School, Place of Worship, Clean Street Food Hub and Fruit Market. Certification valid for 2 years.",
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+    badge: "FSSAI · Eat Right India",
+    badgeColor: "#4a7a1a",
+    tags: ["Eat Right Campus", "Street Food Hub", "FSSAI"],
+    to: "/services/eat-right",
+  },
+   {
+    num: "08",
     title: "Safety Audit / Inspection",
     shortDesc: "Systematic workplace safety compliance examination.",
     description:
@@ -77,14 +96,15 @@ export const services = [
     to: "/services/safety-audit",
   },
   {
-    title: "Eat Right Initiative",
-    shortDesc: "FSSAI Eat Right Campus, School & Place of Worship audits.",
+    num: "09",
+    title: "Verification & Validation",
+    shortDesc: "Independent TPIA verification and validation services.",
     description:
-      "Audits under FSSAI's Eat Right India movement — Eat Right Campus, School, Place of Worship, Clean Street Food Hub and Fruit Market. Certification valid for 2 years.",
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
-    badge: "FSSAI · Eat Right India",
-    badgeColor: "#4a7a1a",
-    tags: ["Eat Right Campus", "Street Food Hub", "FSSAI"],
-    to: "/services/eat-right",
-  },
+      "Brajvidhya Services Private Limited carries out Third Party Inspection Agency (TPIA) Verification & Validation services to provide independent and objective assessment of systems, processes, and operational activities. The verification process ensures that all procedures, controls, and documentation are implemented in accordance with applicable standards, specifications, and regulatory or contractual requirements. Validation activities further assess the effectiveness of these implemented systems to confirm that they achieve the intended outcomes under actual operating conditions. Through a systematic approach involving inspection, review of records, and interaction with concerned personnel, Brajvidhya Services Private Limited ensures transparency, reliability, and compliance. The organization’s TPIA services help in identifying gaps, minimizing risks, and supporting continual improvement while enhancing stakeholder confidence.",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80",
+    badge: "TPIA Services",
+    badgeColor: "#2e5b8a",
+    tags: ["Verification", "Validation", "Compliance", "TPIA"],
+    to: "/services/verification-validation",
+},
 ];

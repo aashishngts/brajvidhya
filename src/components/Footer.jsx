@@ -5,7 +5,7 @@ import qciLogo from "../assets/accreditations/qci.png";
 import ifeLogo from "../assets/accreditations/ife.png";
 import beeLogo from "../assets/accreditations/bee.png";
 import msmeLogo from "../assets/accreditations/msme.png";
-import logo from "../assets/logo.png";
+import logo from "../assets/logos/finalLogo.jpeg";
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },

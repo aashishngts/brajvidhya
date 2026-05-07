@@ -22,7 +22,7 @@ const C = {
 };
 
 // ── SERVICE DATA ────────────────────────────────────────────
-const services = [
+export const services = [
   {
     num: "01",
     badgeImg: fssaiLogo,
@@ -239,6 +239,33 @@ const services = [
       </svg>
     ),
   },
+  {
+  num: "09",
+  badgeImg: safetyLogo, // replace with your own logo if available
+  title: "Verification & Validation",
+  shortDesc:
+    "Independent TPIA verification and validation services for systems, processes, and operational compliance.",
+  points: [
+    "Third Party Inspection Agency (TPIA) services",
+    "System & process compliance verification",
+    "Operational effectiveness validation",
+    "Risk identification & continual improvement",
+  ],
+  icon: (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-7 h-7"
+    >
+      <path d="M9 12l2 2 4-4" />
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+    </svg>
+  ),
+},
 ];
 
 // ── WHY US ──────────────────────────────────────────────────
@@ -483,7 +510,7 @@ const ServiceCard = ({ s }) => {
 
         {/* CTA */}
         <Link
-          to="/contact"
+         to={`/services/${s.num}`}
           className="flex items-center gap-1.5 text-[12px] font-black transition-all duration-300 mt-auto w-fit"
           style={{ color: hovered ? C.gold : C.green }}
         >
@@ -624,7 +651,7 @@ const ServicesPage = () => (
         </div>
 
         {/* 4-col desktop, 2-col tablet, 1-col mobile */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((s) => (
             <ServiceCard key={s.num} s={s} />
           ))}
