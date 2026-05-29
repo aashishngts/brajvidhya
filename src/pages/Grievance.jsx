@@ -103,15 +103,9 @@ const ContactForm = () => {
   const [focused, setFocused] = useState("");
 
   const services = [
-    "FSSAI Third Party Audit",
-    "Hygiene Rating Audit (HRA)",
-    "ZED Assessment",
-    "Energy Audit",
-    "Fire Safety Inspection",
-    "Environmental Audit",
-    "Safety Audit",
-    "Eat Right Initiative",
-    "Other",
+    "Appeal",
+    "Complaint",
+    "Feedback"
   ];
 
   const handleSubmit = (e) => {
@@ -352,7 +346,7 @@ const Grievance = () => {
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-[#f5f0e8] mb-4 md:mb-6 leading-tight"
               style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
             >
-              Contact <span style={{ color: "#b8962e" }}>Brajvidhya</span>
+              Grievance <span style={{ color: "#b8962e" }}>Form</span>
             </h1>
 
             <div
@@ -497,7 +491,7 @@ const Grievance = () => {
                   className="text-xl sm:text-2xl font-black text-[#1a3d2b]"
                   style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
                 >
-                  Book an Audit or Enquire
+                 Grievance
                 </h2>
                 <p className="text-gray-400 text-sm mt-1">
                   All fields marked * are required.

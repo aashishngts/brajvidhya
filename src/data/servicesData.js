@@ -37,7 +37,7 @@ export const services = [
   },
   {
     num: "04",
-    title: "Energy Audit / Inspection",
+    title: "",
     shortDesc: "Systematic energy flow analysis to identify savings.",
     description:
       "A systematic inspection, survey, and analysis of energy flows within a building or process. We identify inefficiencies and recommend solutions to reduce waste and save costs.",

@@ -378,7 +378,7 @@ Our organization is committed to supporting industries in adopting world-class m
   {
     num: "04",
     badgeImg: beeLogo,
-    title: "Energy Audit / Inspection",
+    title: "Energy Audit / Inspection (Non - NABC Accredited)",
     shortDesc:
       "Systematic inspection and analysis of energy flows.",
 
@@ -463,7 +463,7 @@ Our expert team conducts detailed assessments of electrical systems, equipment p
   {
     num: "06",
     badgeImg: envLogo,
-    title: "Environmental Audit",
+    title: "Environmental Audit (Non - NABC Accredited)",
     shortDesc:
       "Objective, documented evaluation of an organization's environmental performance and sustainability compliance.",
 
