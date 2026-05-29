@@ -494,6 +494,9 @@ const Grievance = () => {
                  Grievance
                 </h2>
                 <p className="text-gray-400 text-sm mt-1">
+                 We value your feedback and are committed to addressing your concerns. 
+                </p>
+                <p className="text-gray-400 text-sm mt-1">
                   All fields marked * are required.
                 </p>
               </div>
