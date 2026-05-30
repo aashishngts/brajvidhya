@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import NavbarLeftLogo from "./components/NavbarLeftLogo";
 import ServiceDetail from "./pages/serviceDetail";
 import Grievance from "./pages/Grievance";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/goal" element={<GoalPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/grievance" element={<Grievance />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
       {/* <BackToTop /> */}
